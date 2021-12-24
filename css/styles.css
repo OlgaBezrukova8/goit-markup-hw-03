@@ -1,0 +1,228 @@
+/* basic style settings */
+
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --paragraph-color: #757575;
+  --primary-background-color: #e5e5e5;
+  --primary-white-color: #ffffff;
+  --accent-background-color: #2f303a;
+  --background-btn-color: #f5f4fa;
+  --background-accent-btn: #188ce8;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+/* customizing styles header */
+
+.header-colortext {
+  color: var(--accent-color);
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.header-link:hover {
+  color: var(--accent-color);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+}
+
+.header-link,
+.header-contact {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* customizing styles footer */
+
+.footer-colortext {
+  color: var(--accent-color);
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
+.footer-contact {
+  font-style: normal;
+  line-height: 1.71;
+  background-color: var(--accent-background-color);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address {
+  color: var(--primary-white-color);
+}
+
+/* customizing styles hero block */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: var(--accent-background-color);
+}
+
+.hero-btn {
+  padding-top: 10px;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.86;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-width: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--background-accent-btn);
+}
+
+/* customizing styles about block */
+
+.about-second-title {
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.about-after-title {
+  line-height: 1.5;
+  color: var(--paragraph-color);
+}
+
+.about-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+/* customizing styles activity block */
+
+.activity-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.activity-item {
+  display: inline;
+}
+
+/* customizing styles team block */
+
+.team-title {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.team-second-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team-after-title {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--paragraph-color);
+}
+
+/* ----portfolio---- */
+
+/* customizing styles portfolio page */
+
+.portfolio-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.portfolio-btn {
+  padding-top: 6px;
+  padding-left: 22px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--primary-text-color);
+  background-color: var(--background-btn-color);
+  border-width: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-second-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-after-title {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--paragraph-color);
+}
